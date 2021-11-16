@@ -1,0 +1,259 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+body {
+    background-color: #fafafa;
+}
+
+
+/*======================================== Login ========================================*/
+
+.preload {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: #fafafa;
+}
+
+.preload .fab {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 65px;
+    color: #d6d6d6;
+}
+
+.container-login {
+    max-width: 935px;
+    margin: auto;
+    padding-top: 102px;
+}
+
+.left_carousel {
+    background: url("../images/webImg/phone_bg.png") no-repeat;
+    padding-bottom: 80px;
+    width: 454px;
+}
+
+.left_carousel img {
+    margin-top: 100px;
+    margin-left: 139px;
+}
+
+.right_login {
+    max-width: 350px;
+}
+
+.right_login .right_top {
+    width: 100%;
+    margin-top: 30px;
+    background-color: #fff;
+    border: 1px solid #dbdbdb;
+    padding: 0 30px;
+}
+
+.right_login .right_top .facebook_login {
+    text-decoration: none;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    color: #385185;
+    font-weight: 500;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
+
+.right_login .right_top a .fab {
+    font-size: 20px;
+}
+
+.right_login .right_top h1 {
+    margin: 22px auto 12px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.login_input {
+    background: #fafafa;
+    font-size: 13px;
+    border: 0;
+    padding: 6px 0 7px 8px;
+    border: 1px solid #dbdbdb;
+    border-radius: 3px;
+    width: 100%;
+    margin-top: 7px;
+    outline: none;
+}
+
+.right_login .right_top button {
+    width: 100%;
+    margin-top: 15px;
+    background: #0095f6;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    color: #fff;
+    padding: 2.7px;
+}
+
+.ili {
+    position: relative;
+    text-align: center;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.ili p::after {
+    content: "";
+    width: 40%;
+    height: 1px;
+    background-color: #dbdbdb;
+    position: absolute;
+    top: 55%;
+    right: 0;
+}
+
+.ili p::before {
+    content: "";
+    width: 40%;
+    height: 1px;
+    background-color: #dbdbdb;
+    position: absolute;
+    top: 55%;
+    left: 0;
+}
+
+.right_login .right_top .reset_password {
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    font-size: 12px;
+    color: #00376b;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.right_center {
+    width: 100%;
+    margin-top: 13px;
+    background-color: #fff;
+    border: 1px solid #dbdbdb;
+    text-align: center;
+}
+
+.right_center p {
+    padding: 15px 0;
+    display: flex;
+    font-size: 14px;
+    justify-content: center;
+    margin-bottom: 0;
+}
+
+.right_center p a {
+    text-decoration: none;
+    margin-left: 5px;
+    font-weight: 500;
+}
+
+.right_bottom {
+    padding: 0 30px;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.right_bottom img {
+    width: 140px;
+    margin: 0;
+    padding: 0;
+}
+
+.right_bottom .row {
+    justify-content: space-around;
+}
+
+
+/*======================================== register ======================================== */
+
+.container-register {
+    min-height: 100%;
+    max-width: 350px;
+    margin: auto;
+    margin-top: 35px;
+}
+
+.container-register-top {
+    background-color: #fff;
+    border: 1px solid #dbdbdb;
+    padding: 0 35px;
+}
+
+.container-register-top h1 {
+    margin: 22px auto 12px;
+    text-align: center;
+}
+
+.container-register-top p {
+    text-align: center;
+    color: #8e8e8e;
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.container-register-top button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    width: 100%;
+    background-color: #0095f6;
+    border: 1px solid transparent;
+    color: #fff;
+    border-radius: 4px;
+    padding: 3px 9px;
+}
+
+.container-register-top .login_input {
+    font-size: 12px;
+}
+
+.container-register-top form button {
+    margin-top: 10px;
+}
+
+.container-register-top form p {
+    color: #8e8e8e;
+    font-size: 12px;
+    font-weight: 400;
+    margin-top: 13px;
+    padding-bottom: 20px;
+}
+
+.container-register-center {
+    background-color: #fff;
+    border: 1px solid #dbdbdb;
+    margin-top: 13px;
+}
+
+.container-register-center p {
+    padding: 20px 0;
+    text-align: center;
+    margin-bottom: 0;
+    text-decoration: none;
+}
+
+.container-register-center p a {
+    text-decoration: none;
+}
+
+.alert {
+    position: absolute;
+    width: 50%;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, 0);
+}

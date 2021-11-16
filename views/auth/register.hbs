@@ -1,0 +1,29 @@
+<div class="container-register">
+    <div class="container-register-top">
+        <h1><img src="/images/webImg/instagram.png" alt=""></h1>
+        <p>Зарегистрируйтесь, чтобы смотреть фото и видео ваших друзей.</p>
+        <button><i class="fab fa-facebook-square"></i> Войти через Facebook</button>
+        <div class="ili">
+            <p>или</p>
+        </div>
+        <form action="/auth/register" method="POST">
+            <input type="text" name="login" placeholder="Моб. телефон или эл. адрес" class="login_input ">
+            <input type="text" name="name" placeholder="Имя и фамилия" class="login_input ">
+            <input type="text" name="title" placeholder="Имя пользователя" class="login_input ">
+            <input type="text" name="password" placeholder="Пароль" class="login_input ">
+            <button>Регистрация</button>
+            <p>Регистрируясь, вы принимаете наши Условия, Политику использования данных и Политику в отношении файлов
+                cookie</p>
+        </form>
+    </div>
+    <div class="container-register-center">
+        <p>Есть аккаунт? <a href="/auth/login">Вход</a></p>
+    </div>
+    <div class="right_bottom">
+        <p>Установите приложение.</p>
+        <div class="row">
+            <img src="/images/webImg/appstore.png" alt="">
+            <img src="/images/webImg/googleplay.png" alt="">
+        </div>
+    </div>
+</div>

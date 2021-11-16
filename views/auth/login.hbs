@@ -1,0 +1,39 @@
+<div class="container-login">
+    <div class="row">
+        <div class="left_carousel">
+            {{!-- <img src="/images/webImg/img_1.jpeg" alt=""> --}}
+            {{!-- <img src="/images/webImg/img_2.jpg" alt=""> --}}
+            {{!-- <img src="/images/webImg/img_3.jpg" alt=""> --}}
+            {{!-- <img src="/images/webImg/img_4.jpg" alt=""> --}}
+            <img src="/images/webImg/img_5.jpg" alt="">
+        </div>
+        <div class="right_login">
+            <div class="right_top">
+                <h1>
+                    <img src="/images/webImg/instagram.png" alt="">
+                </h1>
+                <form action="/auth/login" method="POST">
+                    <input type="text" name="login" id="" placeholder="Телефон, имя пользователя или эл. адрес"
+                        class="login_input ">
+                    <input type="text" name="password" id="" placeholder="Пароль" class="login_input ">
+                    <button>Войти</button>
+                </form>
+                <div class="ili">
+                    <p>или</p>
+                </div>
+                <a href="/" class="facebook_login"><i class="fab fa-facebook-square"></i> Войти через Facebook</a>
+                <a href="/" class="reset_password">Забыли пароль?</a>
+            </div>
+            <div class="right_center">
+                <p>У вас ещё нет аккаунта? <a href="/auth/register"> Зарегистрироваться</a></p>
+            </div>
+            <div class="right_bottom">
+                <p>Установите приложение.</p>
+                <div class="row">
+                    <img src="/images/webImg/appstore.png" alt="">
+                    <img src="/images/webImg/googleplay.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
